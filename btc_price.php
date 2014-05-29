@@ -15,13 +15,10 @@ $current_sell = $coinbase->getSellPrice('1');
 	<meta name="Bitcoin price coinbase" content="HTML,CSS">
     <meta http-equiv="refresh" content="60" >
     <link href='http://fonts.googleapis.com/css?family=Lato:400,100,900' rel='stylesheet' type='text/css'>
-    <style>
-    body {text-align:center; overflow:auto}
-    h1 {font-size:80px; font-family: 'Arial', sans-serif; color:#6E6E6E;}
-    h3, #footer {font-family: 'Lato', sans-serif; font-weight:400; color:#D8D8D8;}
-    #buy, #sell {width:200px;}
-    #bracket {width:70%; margin-left:auto; margin-right:auto; margin-top:50px;}
-    </style>
+  
+    <link href='style.css' rel='stylesheet' type='text/css'>
+  
+
 </head>
 
 <body>
