@@ -1,3 +1,5 @@
+<!DOCTYPE html> 
+
 <?php
 require ('coinbase_api_credentials.php');
 require_once ('coinbase-php-master/lib/Coinbase.php');
@@ -5,8 +7,7 @@ $coinbase = Coinbase::withApiKey($api_key, $api_secret);
 $current_buy = $coinbase->getBuyPrice('1');
 $current_sell = $coinbase->getSellPrice('1');
 ?>
-
-<html>
+ 
 <title><?php echo $current_buy; ?></title>
 <head>
 	<meta charset="UTF-8">
@@ -41,4 +42,3 @@ $current_sell = $coinbase->getSellPrice('1');
 </div>
 </body>
 
-</html>
