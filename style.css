@@ -2,10 +2,47 @@
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
 
 
+.wrapper {
+  width: 95%;
+  margin: auto;
+  max-width: 1200px; 
+}
+a, a:visited{
+ color:#D8D8D8;
+ text-decoration: none;
+}
+a:hover {
+ color:#6E6E6E;
+}
+h1 {
+ font-size:80px;
+ font-family: 'Arial', sans-serif;
+ color:#6E6E6E;
+}
+h3, footer {
+ font-family: 'Lato', sans-serif;
+ font-weight:400;
+ color:#D8D8D8;
+}
+footer {
+     text-align: center;
+}
 
-body {text-align:center; overflow:auto}
-h1 {font-size:80px; font-family: 'Arial', sans-serif; color:#6E6E6E;}
-h3, #footer {font-family: 'Lato', sans-serif; font-weight:400; color:#D8D8D8;}
-#buy, #sell {width:200px;}
-#bracket {width:70%; margin-left:auto; margin-right:auto; margin-top:50px;}
+#bracket { 
+ margin: 50px auto;
+}
 
+#bracket div {
+     width: 45%;
+     display: inline-block;
+     text-align: center;
+     margin:1em 0;
+}
+ 
+
+@media all and (max-width:760px) {
+
+     div#bracket div {
+          width: 95%;
+     }
+}
